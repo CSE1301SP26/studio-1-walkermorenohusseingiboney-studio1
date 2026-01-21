@@ -1,0 +1,15 @@
+package studio1;
+import java.util.Scanner;
+public class Average {
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        System.out.println("Value of first integer:");
+        int n1 = in.nextInt();
+        System.out.println("Value of second integer");
+        int n2 = in.nextInt();
+        System.out.println("The average of the two value is " + (n1+n2)/2.0 + ".");
+
+
+    }
+
+}
